@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-feeds</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>angular-feeds</name>
     <description>WebJar for angular-feeds</description>
     <url>http://webjars.org</url>
@@ -124,12 +124,6 @@
                 </configuration>
             </plugin>
         </plugins>
-        <resources>
-            <resource>
-                <directory>${project.basedir}/src/main/resources</directory>
-                <targetPath>${destDir}</targetPath>
-            </resource>
-        </resources>
     </build>
 
 </project>
